@@ -1,8 +1,6 @@
-/* header {
-    padding: 20px 0;
-} */
+/*<--header-->*/
 body {
-    font-family: 'PT Sans', sans-serif;
+    font-family: 'Raleway', sans-serif;;
 }
 
 header {
@@ -12,7 +10,7 @@ header {
 .caja {
     width: 1200px;
     position: relative;
-    margin: 0 auto;
+    margin: 15px auto;
 }
 
 .logo{
@@ -32,7 +30,7 @@ nav li{
 
 nav a{
     color: #141C24;
-    font-weight: 900;
+    font-weight: 700;
     font-size: 18px;
     text-decoration: none;
 }
@@ -40,3 +38,10 @@ nav a{
 nav a:hover {
     color: #348CEC;
 }
+/*<--header-->*/
+
+/*<--bienvenida-->*/
+section {
+    
+}
+
