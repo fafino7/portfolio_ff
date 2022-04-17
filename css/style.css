@@ -1,6 +1,6 @@
 /*<--header-->*/
 body {
-    font-family: 'Raleway', sans-serif;;
+    font-family: 'Raleway', sans-serif;
 }
 
 header {
@@ -42,6 +42,52 @@ nav a:hover {
 
 /*<--bienvenida-->*/
 section {
-    
+    background-color: #141C24;
 }
 
+.encabezado-introduccion {
+    color: #ffffff;
+    margin: auto;
+    margin-right: 17px;
+}
+
+.encabezado-introduccion h1 {
+    font-weight: 700;
+    font-size: 52px;
+    line-height: 61px;
+}
+
+.encabezado-introduccion h4 {
+    margin-top: 24px;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 26px;  
+}
+
+.encabezado-principal{
+    padding: 30px 120px;
+    display: flex;
+}
+
+.encabezado-lista {
+    margin-top: 24px;
+
+}
+
+.encabezado-lista li{
+    display: inline;
+    margin: 0 30px 0 0;
+}
+
+.encabezado-lista a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.foto-encabezado{
+    height: 368px;
+    border-radius: 190px;
+}
