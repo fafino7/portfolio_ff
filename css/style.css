@@ -1,10 +1,10 @@
 /*<--header-->*/
 body {
     font-family: 'Raleway', sans-serif;
+    background-color: #F5F5F5;
 }
 
 header {
-    background-color: #ffffff;
 }
 
 .caja {
@@ -29,7 +29,7 @@ nav li{
 }
 
 nav a{
-    color: #141C24;
+    color: #464646;
     font-weight: 700;
     font-size: 18px;
     text-decoration: none;
@@ -42,11 +42,10 @@ nav a:hover {
 
 /*<--bienvenida-->*/
 section {
-    background-color: #141C24;
 }
 
 .encabezado-introduccion {
-    color: #ffffff;
+    color: #464646;
     margin: auto;
     margin-right: 17px;
 }
@@ -81,7 +80,7 @@ section {
 
 .encabezado-lista a {
     text-decoration: none;
-    color: #ffffff;
+    color: #464646;
     font-weight: 500;
     font-size: 16px;
     line-height: 19px;
@@ -91,3 +90,49 @@ section {
     height: 368px;
     border-radius: 190px;
 }
+/*<--bienvenida-->*/
+
+/*<--about me-->*/
+.about-me {
+    background-color: #1c2c3c;
+    padding: 30px 120px;
+}
+
+.about-me h2 {
+    color: #f5f5f5;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+    margin: 16px 0 0 0;
+}
+
+.about-me-texto {
+    color: #f5f5f5;
+    width: 751px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;  
+}
+
+.about-me-texto img {
+    margin: 0 0 16px 0;
+}
+/*<--about me-->*/
+
+/*<--skills and hobies-->*/
+
+.skills-hobbies {
+    background-color: #f5f5f5;
+    padding: 30px 120px;
+}
+
+.skills h2 {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+    text-align: center;
+}
+
+/*<--skills and hobies-->*/
+
+
