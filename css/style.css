@@ -35,7 +35,6 @@ nav a{
 nav a:hover {
     color: #348CEC;
 }
-/*<--header-->*/
 
 /*<--bienvenida-->*/
 .encabezado-introduccion {
@@ -84,7 +83,6 @@ nav a:hover {
     height: 368px;
     border-radius: 190px;
 }
-/*<--bienvenida-->*/
 
 /*<--about me-->*/
 .about-me {
@@ -111,7 +109,6 @@ nav a:hover {
 .about-me-texto img {
     margin: 0 0 16px 0;
 }
-/*<--about me-->*/
 
 /*<--skills and hobies-->*/
 
@@ -125,12 +122,7 @@ nav a:hover {
     font-size: 32px;
     line-height: 38px;
     text-align: center;
-}
-
-/*<--skills and hobies-->*/
-.skills-hobbies {
-    background-color: #f5f5f5;
-    padding: 30px 120px;
+    margin: 32px 0px;
 }
 
 .skills-container {
@@ -155,15 +147,23 @@ nav a:hover {
     height: 174px;
 }
 
+.box-img {
+    height: 37px;
+    margin: 8px 0px;   
+}
+
 .box p {
     font-weight: 900;
     font-size: 16px;
     line-height: 19px;
 }
 
-.box-img {
-    height: 37px;
-    margin: 8px 0px;   
+.box p:hover {
+    color: #348CEC;
+}
+
+.hobbies-h2 {
+    margin: 32px 0px;
 }
 
 .hobbies-container {
@@ -178,4 +178,61 @@ nav a:hover {
 
 .emoji-img {
     margin: 12px 0px;
+}
+
+/*<--formación-->*/
+
+.formacion {
+    background-color: #1c2c3c;
+    padding: 30px 120px;
+}
+
+.formacion h2 {
+    color: #f5f5f5;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+    text-align: center;
+    margin: 32px 0px;
+}
+
+.formacion-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 16px;
+    row-gap: 16px;
+    column-gap: 16px;
+}
+
+.formacion-container-box h3 {
+    color: #f5f5f5;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 26px;
+    margin: 8px 0px;
+}
+
+.formacion-container-box p {
+    color: #f5f5f5;
+    font-size: 16px;
+    line-height: 19px;
+    margin: 8px 0px;
+}
+
+.box-formacion {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: static;
+    width: 368px;
+    height: 286px;
+}
+
+.box-formacion-img {
+    width: 192px;
+    height: 130px;
 }
