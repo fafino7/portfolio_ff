@@ -36,7 +36,12 @@ nav a:hover {
     color: #348CEC;
 }
 
-/*<--bienvenida-->*/
+/*<--encabezado-->*/
+.encabezado-principal{
+    padding: 30px 120px;
+    display: flex;
+}
+
 .encabezado-introduccion {
     color: #464646;
     margin: auto;
@@ -56,14 +61,8 @@ nav a:hover {
     line-height: 26px;  
 }
 
-.encabezado-principal{
-    padding: 30px 120px;
-    display: flex;
-}
-
 .encabezado-lista {
     margin-top: 24px;
-
 }
 
 .encabezado-lista li{
@@ -77,6 +76,10 @@ nav a:hover {
     font-weight: 500;
     font-size: 16px;
     line-height: 19px;
+}
+
+.encabezado-lista a:hover {
+    color: #348CEC;
 }
 
 .foto-encabezado{
@@ -118,6 +121,7 @@ nav a:hover {
 }
 
 .skills h2 {
+    color: #464646;
     font-weight: 700;
     font-size: 32px;
     line-height: 38px;
@@ -154,6 +158,7 @@ nav a:hover {
 }
 
 .box p {
+    color: #464646;
     font-weight: 900;
     font-size: 16px;
     line-height: 19px;
@@ -164,6 +169,7 @@ nav a:hover {
 }
 
 .hobbies-h2 {
+    color: #464646;
     margin: 32px 0px;
 }
 
@@ -242,5 +248,88 @@ nav a:hover {
 
 .experiencia {
     background-color: #f5f5f5;
-    padding: 30px 120px;
+    color: #464646;
 }
+
+.proyectos {
+    padding: 32px 152px;
+}
+
+.container-proyecto {
+    display: flex;
+    margin: 32px 0 0 0;
+}
+
+.experiencia h2 {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+    text-align: center;
+}
+
+.proyecto-imagen {
+    height: 406px;
+    border-radius: 12px;
+    width: 752px;
+}
+
+.proyecto-container-textos-botones {
+    margin: auto;
+    margin-left: 17px;
+}
+
+.proyecto-container-textos h3 {
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 26px;
+    margin: 0 0 6px 0;
+}
+
+.proyecto-container-textos p {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 19px;
+    margin: 0 0 24px 0;
+}
+
+.proyecto-container-botones {
+    display: inline-block;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    margin: 8px 0;
+}
+
+.btn1 {
+    border: 1px solid #348CEC;
+    color: #348CEC;
+    border-radius: 8px;
+    padding: 15px;
+    margin: 0 17px 0 0;
+    text-decoration: none;
+}
+
+.btn2 {
+    color: #f5f5f5;
+    border-radius: 8px;
+    padding: 16px;
+    margin: 0 32px 0 0;
+    background-color: #348CEC;
+    text-decoration: none;
+}
+
+.btn1:hover {
+    background-color: #348CEC;
+    color: #f5f5f5;
+}
+
+.btn2:hover {
+    background-color: #f5f5f5;
+    border: 1px solid #348CEC;
+    color: #348CEC;
+    border-radius: 8px;
+    padding: 15px;
+}
+
+
+
