@@ -27,7 +27,7 @@ nav li{
 
 nav a{
     color: #464646;
-    font-weight: 900;
+    font-weight: 500;
     font-size: 18px;
     text-decoration: none;
 }
@@ -38,7 +38,7 @@ nav a:hover {
 
 /*<--encabezado-->*/
 .encabezado-principal{
-    padding: 30px 120px;
+    padding: 32px 152px;
     display: flex;
 }
 
@@ -58,11 +58,12 @@ nav a:hover {
     margin-top: 24px;
     font-weight: 400;
     font-size: 22px;
-    line-height: 26px;  
+    line-height: 26px;
+    margin-top: 24px;  
 }
 
 .encabezado-lista {
-    margin-top: 24px;
+    margin-top: 26.5px;
 }
 
 .encabezado-lista li{
@@ -90,7 +91,7 @@ nav a:hover {
 /*<--about me-->*/
 .about-me {
     background-color: #1c2c3c;
-    padding: 30px 120px;
+    padding: 64px 152px;
 }
 
 .about-me h2 {
@@ -98,7 +99,6 @@ nav a:hover {
     font-weight: 700;
     font-size: 32px;
     line-height: 38px;
-    margin: 16px 0 0 0;
 }
 
 .about-me-texto {
@@ -109,24 +109,19 @@ nav a:hover {
     line-height: 19px;  
 }
 
-.about-me-texto img {
-    margin: 0 0 16px 0;
-}
-
 /*<--skills and hobies-->*/
 
-.skills-hobbies {
-    background-color: #f5f5f5;
-    padding: 30px 120px;
+.skills {
+    padding: 32px 152px 0 152px;
 }
 
-.skills h2 {
+.skills-hobbies h2 {
     color: #464646;
     font-weight: 700;
     font-size: 32px;
     line-height: 38px;
     text-align: center;
-    margin: 32px 0px;
+    margin-bottom: 32px;
 }
 
 .skills-container {
@@ -159,7 +154,7 @@ nav a:hover {
 
 .box p {
     color: #464646;
-    font-weight: 900;
+    font-weight: 700;
     font-size: 16px;
     line-height: 19px;
 }
@@ -168,9 +163,8 @@ nav a:hover {
     color: #348CEC;
 }
 
-.hobbies-h2 {
-    color: #464646;
-    margin: 32px 0px;
+.hobbies {
+    padding: 88px 152px;
 }
 
 .hobbies-container {
@@ -191,7 +185,7 @@ nav a:hover {
 
 .formacion {
     background-color: #1c2c3c;
-    padding: 30px 120px;
+    padding: 82px 152px;
 }
 
 .formacion h2 {
@@ -200,7 +194,7 @@ nav a:hover {
     font-size: 32px;
     line-height: 38px;
     text-align: center;
-    margin: 32px 0px;
+    margin-bottom: 32px;
 }
 
 .formacion-container {
@@ -208,7 +202,6 @@ nav a:hover {
     flex-direction: row;
     justify-content: center;
     align-items: flex-start;
-    padding: 16px;
     row-gap: 16px;
     column-gap: 16px;
 }
@@ -225,7 +218,7 @@ nav a:hover {
     color: #f5f5f5;
     font-size: 16px;
     line-height: 19px;
-    margin: 8px 0px;
+    margin-top: 8px;
 }
 
 .box-formacion {
@@ -251,11 +244,11 @@ nav a:hover {
     color: #464646;
 }
 
-.proyectos {
+.container-proyectos {
     padding: 32px 152px;
 }
 
-.container-proyecto {
+.proyecto-encriptador {
     display: flex;
     margin: 32px 0 0 0;
 }
@@ -267,7 +260,7 @@ nav a:hover {
     text-align: center;
 }
 
-.proyecto-imagen {
+.proyecto-imagen img{
     height: 406px;
     border-radius: 12px;
     width: 752px;
