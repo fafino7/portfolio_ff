@@ -334,3 +334,85 @@ nav a:hover {
     margin-left: 0;
 }
 
+/*<--sección contacto-->*/
+.contacto {
+    background-color: #1c2c3c;
+    color: #f5f5f5;
+}
+
+.container-contacto {
+    padding: 129.5px 152px;
+    display: flex;
+}
+
+.contacto-imagen img {
+    height: 593px;
+    width: 464px;
+}
+
+.contacto h2 {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+}
+
+.contacto p{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.formulario-contacto {
+    margin-left: 16px;
+}
+
+form {
+    display: grid
+}
+
+form label {
+    font-weight: 700;
+}
+
+.input-padron {
+    display: block;
+    margin: 32px 0 0 0;
+    padding: 10px 25px;
+    border-radius: 2px;
+    width: 656px;
+    height: 32px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    border: none;
+    border-bottom: 2px solid lightgray;
+    color: #464646;
+}
+
+.input-padron:focus {
+    border-bottom: 4px solid #348CEC;
+    outline: none;
+}
+
+.enviar{
+    width: 144px;
+    padding: 15px 0;
+    font-size: 16px;
+    font-weight: 400;
+    color: #FFFFFF;
+    background: #348CEC;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+    margin-top: 32px;
+}
+
+footer{
+    background-color: #f5f5f5;
+    padding: 32px;
+}
+
+footer div {
+    text-align: center;
+    display: inline;
+}
