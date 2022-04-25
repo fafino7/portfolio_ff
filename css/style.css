@@ -5,13 +5,13 @@ body {
 }
 
 .caja {
-    width: 1200px;
+    width: 80%;
     position: relative;
     margin: 15px auto;
 }
 
 .logo{
-    height: 70px;
+    height: 4.375em;
 }
 
 nav{
@@ -28,7 +28,7 @@ nav li{
 nav a{
     color: #464646;
     font-weight: 500;
-    font-size: 18px;
+    font-size: 1.125em;
     text-decoration: none;
 }
 
@@ -38,26 +38,30 @@ nav a:hover {
 
 /*<--encabezado-->*/
 .encabezado-principal{
-    padding: 32px 152px;
+    padding: 2em 9.25em;
     display: flex;
+    flex-direction: row;
+    height: auto;
+    width: auto;
+    align-items: center;
+    justify-content: flex-end;
 }
 
 .encabezado-introduccion {
     color: #464646;
-    margin: auto;
     margin-right: 17px;
 }
 
 .encabezado-introduccion h1 {
     font-weight: 700;
-    font-size: 52px;
+    font-size: 3.25em;
     line-height: 61px;
 }
 
 .encabezado-introduccion h4 {
     margin-top: 24px;
     font-weight: 400;
-    font-size: 22px;
+    font-size: 1.375em;
     line-height: 26px;
     margin-top: 24px;  
 }
@@ -84,8 +88,9 @@ nav a:hover {
 }
 
 .foto-encabezado{
-    height: 368px;
-    border-radius: 190px;
+    border-radius: 50%;
+    width: 368px;
+    height: auto;
 }
 
 /*<--about me-->*/
@@ -97,7 +102,7 @@ nav a:hover {
 .about-me h2 {
     color: #f5f5f5;
     font-weight: 700;
-    font-size: 32px;
+    font-size: 2em;
     line-height: 38px;
 }
 
@@ -106,7 +111,9 @@ nav a:hover {
     width: 751px;
     font-weight: 400;
     font-size: 16px;
-    line-height: 19px;  
+    line-height: 19px;
+    height: auto;
+    width: auto;  
 }
 
 /*<--skills and hobies-->*/
@@ -415,4 +422,12 @@ footer{
 footer div {
     text-align: center;
     display: inline;
+}
+
+@media screen and (max-width:480px){
+    .about-me {
+        padding: 3vw 3vw 2rem;;
+    }
+
+
 }
