@@ -294,7 +294,6 @@ nav a:hover {
 }
 
 .proyecto-descripcion {
-    margin: 8px 0;
     margin-left: 1rem;
 }
 
@@ -345,14 +344,11 @@ nav a:hover {
     border-radius: 8px;
 }
 
-.proyecto-secundario {
-    display: flex;
-    flex-wrap: wrap;
-    margin: 64px 0 0 0;
+#proyecto-right {
+    flex-direction: row-reverse;
 }
 
-.textos-botones-left {
-    margin: auto;
+#proyecto-descripcion-right {
     margin-left: 0;
 }
 
