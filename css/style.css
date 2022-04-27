@@ -37,8 +37,11 @@ nav a:hover {
 }
 
 /*<--encabezado-->*/
+.seccion {
+    padding: 3vw
+}
+
 .encabezado-principal{
-    padding: 2em 9.25em;
     display: flex;
     flex-direction: row;
     height: auto;
@@ -94,12 +97,11 @@ nav a:hover {
 }
 
 /*<--about me-->*/
-.about-me {
+#about-me {
     background-color: #1c2c3c;
-    padding: 64px 152px;
 }
 
-.about-me h2 {
+#about-me h2 {
     color: #f5f5f5;
     font-weight: 700;
     font-size: 2em;
@@ -116,12 +118,16 @@ nav a:hover {
 }
 
 /*<--skills and hobies-->*/
-
-.skills {
-    padding: 32px 152px 0 152px;
+.skills h2 {
+    color: #464646;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+    text-align: center;
+    margin-bottom: 32px;
 }
 
-.skills-hobbies h2 {
+.hobbies h2 {
     color: #464646;
     font-weight: 700;
     font-size: 32px;
@@ -171,10 +177,6 @@ nav a:hover {
     color: #348CEC;
 }
 
-.hobbies {
-    padding: 88px 152px;
-}
-
 .hobbies-container {
     display: flex;
     flex-wrap: wrap;
@@ -192,12 +194,11 @@ nav a:hover {
 
 /*<--formación-->*/
 
-.formacion {
+#formacion {
     background-color: #1c2c3c;
-    padding: 82px 152px;
 }
 
-.formacion h2 {
+#formacion h2 {
     color: #f5f5f5;
     font-weight: 700;
     font-size: 32px;
@@ -256,18 +257,18 @@ nav a:hover {
 
 /*<--experiencia profesional-->*/
 
-.experiencia {
-    background-color: #f5f5f5;
+#experiencia {
     color: #464646;
 }
 
-.experiencia h2 {
+#experiencia h2 {
     font-weight: 700;
     font-size: 32px;
     line-height: 26px;
     text-align: center;
     margin-top: 2rem;
     margin-bottom: 0.5rem;
+    color: #464646;
 }
 
 .container-proyectos {
@@ -350,16 +351,16 @@ nav a:hover {
 
 #proyecto-descripcion-right {
     margin-left: 0;
+    justify-items: start;
 }
 
 /*<--sección contacto-->*/
-.contacto {
+#contacto {
     background-color: #1c2c3c;
     color: #f5f5f5;
 }
 
 .container-contacto {
-    padding: 129.5px 152px;
     display: flex;
     flex-wrap: wrap;
 }
@@ -369,13 +370,14 @@ nav a:hover {
     width: 464px;
 }
 
-.contacto h2 {
+#contacto h2 {
+    color: #F5F5F5;
     font-weight: 700;
     font-size: 32px;
     line-height: 38px;
 }
 
-.contacto p{
+.seccion p{
     font-weight: 500;
     font-size: 16px;
     line-height: 19px;
