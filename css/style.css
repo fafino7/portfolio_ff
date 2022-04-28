@@ -357,63 +357,151 @@ nav a:hover {
 /*<--sección contacto-->*/
 #contacto {
     background-color: #1c2c3c;
-    color: #f5f5f5;
 }
 
 .container-contacto {
     display: flex;
-    flex-wrap: wrap;
+    align-items: stretch;
 }
 
-.contacto-imagen img {
-    height: 593px;
-    width: 464px;
+.container-contacto img {
+    width: 40%;
 }
 
-#contacto h2 {
+.formulario-contacto {
+    letter-spacing: -1px;
+    margin-left: 0.5rem;
+    width: 60%;
+    height: auto;
+}
+
+.formulario-contacto h2 {
     color: #F5F5F5;
     font-weight: 700;
     font-size: 32px;
     line-height: 38px;
 }
 
-.seccion p{
+.formulario-contacto p{
     font-weight: 500;
     font-size: 16px;
     line-height: 19px;
+    color: #f5f5f5;
 }
 
-.formulario-contacto {
-    margin-left: 16px;
+.input-container {
+    font-weight: 400;
+    position: relative;
+    margin-bottom: 0rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    box-sizing: border-box;
 }
 
-form {
-    display: grid
-}
-
-form label {
-    font-weight: 700;
-}
-
-.input-padron {
+.input{
     display: block;
-    margin: 32px 0 0 0;
-    padding: 10px 25px;
     border-radius: 2px;
-    width: 656px;
-    height: 32px;
+    width: 100%;
+    height: 3.25rem;
     font-weight: 400;
     font-size: 16px;
     line-height: 20px;
     border: none;
-    border-bottom: 2px solid lightgray;
+    color: #464646;
+    caret-color: #348CEC;
+    box-sizing: border-box;
+    border-bottom: 1px solid #348CEC;
+    padding: 1.375rem 0.5rem 0.5rem;
+}
+
+.input:focus {
+    border-bottom: 2px solid #348CEC;
+    outline: none;
+}
+
+.input::placeholder {
+    visibility: hidden;
     color: #464646;
 }
 
-.input-padron:focus {
-    border-bottom: 4px solid #348CEC;
-    outline: none;
+.input-label {
+    position: absolute;
+    top: 1.1rem;
+    left: 0.5rem;
+    font-size: 400;
+    transition: all 0.25s;
 }
+
+.input:not(:placeholder-shown) + .input-label,
+.input:focus + .input-label {
+    font-size: 0.875rem;
+    top: 0.25rem;
+    transition: all 0.25s;
+    color: #348CEC;
+}
+
+.input-bar {
+    position: relative;
+    display: block;
+    top: -2px;
+    width: 100%;
+}
+
+.message-error {
+    display: block;
+    visibility: hidden;
+    height: 1rem;
+    margin-top: -2px;
+    margin-bottom: 2px;
+    color: #ff0f0f;
+    border: none;
+    font-size: 12px;
+    padding-left: 0.5rem;
+}
+
+.textarea-container {
+    font-weight: 400;
+    position: relative;
+    margin-bottom: 1rem;
+  }
+  
+  .textarea {  
+    height: 7rem;  
+    resize: none;
+    padding: 1.375rem 0.5rem 0.5rem;
+  }
+  
+  .textarea::placeholder {
+    visibility: hidden;
+    color: #464646;
+  }
+  
+  .textarea:focus {
+    outline: none;
+  }
+  
+  .textarea-label {
+    position: absolute;
+    top: 1.375rem;
+    left: 0.5rem;
+    font-size: 400;
+    transition: all 0.25s;
+  }
+
+  .textarea:focus + .textarea-label {    /* problema del texto flotante resuelto separando esta clase de la de abajo */
+    font-size: 0.875rem;                 /* estaban en la misma linea separados por una coma */
+    top: 0.25rem;
+    transition: all 0.25s;
+    color: #348CEC;
+  }
+  
+  .textarea:not(:placeholder-shown) + .textarea-label {
+    font-size: 0.875rem;
+    top: 0.25rem;
+    transition: all 0.25s;
+    color: #348CEC;
+  } 
 
 .enviar{
     width: 144px;

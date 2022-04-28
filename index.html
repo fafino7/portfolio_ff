@@ -240,8 +240,7 @@
                             <p>Página web responsiva</p>
                         </div>
                         <div class="proyecto-container-botones">
-                            <a class="boton" id="btn1"
-                                href="https://github.com/fafino7/web-page">Repositorio
+                            <a class="boton" id="btn1" href="https://github.com/fafino7/web-page">Repositorio
                             </a>
                             <a class="boton" id="btn2" href="https://github.com/fafino7/text_encoder">Ver
                                 demo
@@ -258,35 +257,43 @@
 
             <div class="container-contacto">
 
-                <div class="contacto-imagen">
-
-                    <img src="img/phone.png" alt="imagen telefono">
-
-                </div>
+                <img src="img/phone.png" alt="imagen telefono">
 
                 <div class="formulario-contacto">
-
                     <h2>Contacto</h2>
-                    <p>¿Quieres contactarme?</p>
-                    <p>Complete el siguiente formulario y me pondré en contacto con usted lo antes posible.
+                    <p>¿Quieres contactarme?<br>
+                        Complete el siguiente formulario y me pondré en contacto con usted lo antes posible.</p>
 
                     <form>
 
-                        <input type="text" id="nombreapellido" class="input-padron" required placeholder="nombre">
-                        <label for="nombreapellido"></label>
+                        <div class="input-container">
+                            <input class="input" id="name" name="name" type="text" autocomplete="off"
+                                placeholder="Nombre" required>
+                            <label class="input-label" for="name">Nombre</label>
+                            <span class="input-bar"></span>
+                            <span class="message-error">Este campo no es válido</span>
+                        </div>
 
-                        <label for="correoelectronico"></label>
-                        <input type="email" id="correoelectronico" class="input-padron" required
-                            placeholder="email@dominio.com">
+                        <div class="input-container">
+                            <input class="input" id="email" name="email" type="email" autocomplete="off" placeholder="e-mail" required>
+                            <label class="input-label" for="email">e-mail</label>
+                            <span class="input-bar"></span>
+                            <span class="message-error">Este campo no es válido</span>
+                        </div>
 
-                        <label for="telefono"></label>
-                        <input type="tel" id="telefono" class="input-padron" required placeholder="(XX) XXXX XXXX">
+                        <div class="input-container">
+                            <input class="input" id="telefono" name="telefono" type="tel" autocomplete="off" placeholder="Teléfono" required>
+                            <label class="input-label" for="telefono">Teléfono</label>
+                            <span class="input-bar"></span>
+                            <span class="message-error">Este campo no es válido</span>
+                        </div>
 
-                        <label for="mensaje"></label>
-                        <textarea cols="70" rows="10" id="mensaje" class="input-padron" required
-                            placeholder="Escriba aquí..."></textarea>
-
-                        <div>
+                        <div class="input-container">
+                            <textarea class="textarea" id="mensaje" name="mensaje" cols="70" rows="8" placeholder="Escriba aquí..." required></textarea>
+                            <label class="textarea-label" for="mensaje">Mensaje</label>
+                            <span class="input-bar"></span>
+                            <span class="message-error">Este campo no es válido</span>
+                        </div>
 
                             <input type="submit" value="Enviar formulario" class="enviar">
 
