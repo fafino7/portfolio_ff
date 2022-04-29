@@ -1,0 +1,63 @@
+/*<------------------sección encabezado------------------->*/
+.seccion {
+    padding: 2rem 8vw
+}
+
+.encabezado-principal{
+    display: flex;
+    flex-direction: row;
+    height: auto;
+    width: auto;
+    align-items: center;
+    justify-content: center;
+}
+
+.encabezado-introduccion {
+    color: #464646;
+}
+
+.encabezado-introduccion h1 {
+    font-weight: 700;
+    font-size: 3.25em;
+    line-height: 61px;
+}
+
+.encabezado-introduccion h4 {
+    margin-top: 24px;
+    font-weight: 400;
+    font-size: 1.375em;
+    line-height: 26px;
+    margin-top: 24px;  
+}
+
+.encabezado-lista {
+    margin-top: 26.5px;
+}
+
+.encabezado-lista li{
+    display: inline;
+    margin: 0 30px 0 0;
+}
+
+.encabezado-lista a {
+    text-decoration: none;
+    color: #464646;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.encabezado-lista a:hover {
+    color: #348CEC;
+}
+
+.img-lista {
+    height: 10px;
+    width: 10px;
+}
+
+.foto-encabezado{
+    border-radius: 50%;
+    width: 368px;
+    height: auto;
+}

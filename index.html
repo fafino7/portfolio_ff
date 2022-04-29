@@ -6,7 +6,15 @@
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/encabezado.css">
+    <link rel="stylesheet" href="css/about-me.css">
+    <link rel="stylesheet" href="css/skills-hobbies.css">
+    <link rel="stylesheet" href="css/formacion.css">
+    <link rel="stylesheet" href="css/experiencia-profesional.css">
+    <link rel="stylesheet" href="css/contacto.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/responsive.css">
     <link rel="stylesheet" href="css/reset.css">
     <link rel="icon" href="img/faviconFF.png" type="png" />
     <title>Portfolio Fafierro</title>
@@ -16,20 +24,20 @@
 
 <body>
     <!-------------- header -------------->
-    <header>
+    <header id="top">
 
         <div class="caja">
             <div>
-                <a href="www.google.com"></a><img class="logo" src=img/logo.png alt="logo FF">
+                <a href="index.html"><img class="logo" src=img/logo.png alt="logo FF"></a>
             </div>
             <nav>
                 <ul>
-                    <li><a href="index.html">About</a></li>
-                    <li><a href="productos.html">Skills</a></li>
-                    <li><a href="contacto.html">Hobbies</a></li>
-                    <li><a href="index.html">Formación</a></li>
-                    <li><a href="productos.html">Proyectos</a></li>
-                    <li><a href="contacto.html"><b>fafierro.o@gmail.com</b></a></li>
+                    <li><a href="#about-me">About</a></li>
+                    <li><a href="#skills-hobbies">Skills</a></li>
+                    <li><a href="#skills-hobbies">Hobbies</a></li>
+                    <li><a href="#formacion">Formación</a></li>
+                    <li><a href="#experiencia">Proyectos</a></li>
+                    <li><a href="mailto:fafierro.o@gmail.com"><b>fafierro.o@gmail.com</b></a></li>
                 </ul>
             </nav>
         </div>
@@ -49,10 +57,10 @@
                         mediante estrategias de marketing digital. Estoy cursando Alura Latam ONE.</h4>
 
                     <ul class="encabezado-lista">
-                        <li><a href="index.html">LinkedIn</a></li>
-                        <li><a href="productos.html">Github</a></li>
-                        <li><a href="contacto.html">Twitter</a></li>
-                        <li><a href="index.html">CV</a></li>
+                        <li><a href="https://www.linkedin.com/in/franco-fierro/">LinkedIn <img class="img-lista" src="img/Vectorvector.png"></a></li>
+                        <li><a href="https://github.com/fafino7">Github <img class="img-lista" src="img/Vectorvector.png"></a></li>
+                        <li><a href="https://twitter.com/fafierro32">Twitter <img class="img-lista" src="img/Vectorvector.png"></a></li>
+                        <li><a href="index.html">CV <img class="img-lista" src="img/Vectorvector.png"></a></li>
                     </ul>
                 </div>
 
@@ -172,8 +180,8 @@
                     <div class="box-formacion">
                         <img class="box-formacion-img" src="img/image 8 (1).png" alt="javascript logo">
                     </div>
-                    <h3>Análisis de datos</h3>
-                    <p>2018 - UFRP</p>
+                    <h3>Desarrollador Front-End</h3>
+                    <p>2021 a 2022 – Alura</p>
                 </div>
 
                 <div class="formacion-container-box">
@@ -192,6 +200,7 @@
             <h2>Experiencia Profesional</h2>
             <div class="container-proyectos">
 
+                <!-------------- proyecto encriptador -------------->
                 <div class="proyecto">
                     <div class="proyecto-imagen">
                         <img src="img/encriptador.png" alt="imagen encriptador">
@@ -211,9 +220,10 @@
                     </div>
                 </div>
 
+                <!-------------- proyecto ahorcado -------------->
                 <div class="proyecto" id="proyecto-right">
                     <div class="proyecto-imagen">
-                        <img src="img/ahorcado.png" alt="imagen encriptador">
+                        <img src="img/ahorcado.png" alt="imagen juego del ahorcado">
                     </div>
                     <div class="proyecto-descripcion" id="proyecto-descripcion-right">
                         <div class="proyecto-container-textos">
@@ -230,9 +240,10 @@
                     </div>
                 </div>
 
+                <!-------------- proyecto barbería -------------->
                 <div class="proyecto">
                     <div class="proyecto-imagen">
-                        <img src="img/barberia.png" alt="imagen encriptador">
+                        <img src="img/barberia.png" alt="imagen página web">
                     </div>
                     <div class="proyecto-descripcion">
                         <div class="proyecto-container-textos">
@@ -291,11 +302,11 @@
                         <div class="input-container">
                             <textarea class="textarea" id="mensaje" name="mensaje" cols="70" rows="8" placeholder="Escriba aquí..." required></textarea>
                             <label class="textarea-label" for="mensaje">Mensaje</label>
-                            <span class="input-bar"></span>
+                            <span class="textarea-bar"></span>
                             <span class="message-error">Este campo no es válido</span>
                         </div>
 
-                            <input type="submit" value="Enviar formulario" class="enviar">
+                        <input class="enviar" type="submit" value="Enviar formulario">
 
                     </form>
 
@@ -304,13 +315,13 @@
             </div>
 
         </section>
-
+        <!-------------- footer -------------->
         <footer>
 
-            <div>
-
-                <p class="copyright">Desarrollado por Franco Fierro</p>
-                <p>2022</p>
+            <div class="text-footer">
+                <a href="#top"><img class="footer-img" src="img/logo.png"></a>
+                <p>Desarrollado por Franco Fierro</p>
+                <p>2022 ©</p>
 
             </div>
 

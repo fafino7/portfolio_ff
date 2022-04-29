@@ -1,0 +1,37 @@
+/*<------------------header------------------->*/
+body {
+    font-family: 'Raleway', sans-serif;
+    background-color: #F5F5F5;
+}
+
+.caja {
+    width: 80%;
+    position: relative;
+    margin: 15px auto;
+}
+
+.logo{
+    height: 4.375em;
+}
+
+nav{
+    position: absolute;
+    top: 25px;
+    right: 0;
+}
+
+nav li{
+    display: inline;
+    margin: 0 0 0 30px;
+}
+
+nav a{
+    color: #464646;
+    font-weight: 500;
+    font-size: 1.125em;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #348CEC;
+}

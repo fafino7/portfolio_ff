@@ -1,0 +1,172 @@
+/*<------------------sección contacto------------------->*/
+#contacto {
+    background-color: #1c2c3c;
+}
+
+.container-contacto {
+    display: flex;
+    align-items: stretch;
+}
+
+.container-contacto img {
+    width: 40%;
+}
+
+.formulario-contacto {
+    margin-left: 0.5rem;
+    width: 60%;
+    height: auto;
+}
+
+.formulario-contacto h2 {
+    color: #F5F5F5;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+}
+
+.formulario-contacto p{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #f5f5f5;
+    margin: 8px 0;
+}
+
+.input-container {
+    font-weight: 400;
+    position: relative;
+    margin-bottom: 0rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    box-sizing: border-box;
+}
+
+.input{
+    display: block;
+    border-radius: 2px;
+    width: 100%;
+    height: 3.25rem;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    border: none;
+    color: #464646;
+    caret-color: #348CEC;
+    box-sizing: border-box;
+    border-bottom: 1px solid #348CEC;
+    padding: 1.375rem 0.5rem 0.5rem;
+}
+
+.input:focus {
+    border-bottom: 2px solid #348CEC;
+    outline: none;
+}
+
+.input::placeholder {
+    visibility: hidden;
+    color: #464646;
+}
+
+.input-label {
+    position: absolute;
+    top: 1.1rem;
+    left: 0.5rem;
+    font-size: 400;
+    transition: all 0.25s;
+}
+
+.input:not(:placeholder-shown) + .input-label,
+.input:focus + .input-label {
+    font-size: 0.875rem;
+    top: 0.25rem;
+    transition: all 0.25s;
+    color: #348CEC;
+}
+
+.input-bar {
+    position: relative;
+    display: block;
+    top: -2px;
+    width: 100%;
+}
+
+/* ========================= textarea ============================= */
+.textarea-container {
+    font-weight: 400;
+    position: relative;
+    margin-bottom: 1rem;
+  }
+  
+  .textarea {  
+    height: 7rem;  
+    resize: none;
+    padding: 1.375rem 0.5rem 0.5rem;
+    border-radius: 2px;
+    caret-color: #348CEC;
+    border-bottom: 1px solid #348CEC;
+  }
+  
+  .textarea::placeholder {
+    visibility: hidden;
+    color: #464646;
+  }
+  
+  .textarea:focus {
+    outline: none;
+    border-bottom: 2px solid #348CEC;
+  }
+  
+  .textarea-label {
+    position: absolute;
+    top: 1.375rem;
+    left: 0.5rem;
+    font-size: 400;
+    transition: all 0.25s;
+  }
+
+  .textarea:focus + .textarea-label {    /* problema del texto flotante resuelto separando esta clase de la de abajo */
+    font-size: 0.875rem;                 /* estaban en la misma linea separados por una coma */
+    top: 0.25rem;
+    transition: all 0.25s;
+    color: #348CEC;
+  }
+  
+  .textarea:not(:placeholder-shown) + .textarea-label {
+    font-size: 0.875rem;
+    top: 0.25rem;
+    transition: all 0.25s;
+    color: #348CEC;
+  } 
+
+  /* ========================= botón enviar ============================= */
+.enviar{
+    width: 144px;
+    padding: 15px 0;
+    font-size: 16px;
+    font-weight: 400;
+    color: #FFFFFF;
+    background: #348CEC;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+    margin-top: 32px;
+}
+
+.enviar:hover {
+  cursor: pointer;
+}
+
+/* =============    inputs invalidos    ============= */
+.message-error {
+    display: block;
+    visibility: hidden;
+    height: 1rem;
+    margin-top: -2px;
+    margin-bottom: 2px;
+    color: #ff0f0f;
+    border:none;
+    font-size: 12px;
+    padding-left: 0.5rem;
+  }

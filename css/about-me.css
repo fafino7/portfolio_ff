@@ -1,0 +1,20 @@
+/*<------------------sección about-me------------------->*/
+#about-me {
+    background-color: #EAF2FD;
+}
+
+#about-me h2 {
+    color: #464646;
+    font-weight: 700;
+    font-size: 2em;
+    line-height: 38px;
+}
+
+.about-me-texto {
+    color: #464646;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    height: auto;
+    width: 50vw;  
+}

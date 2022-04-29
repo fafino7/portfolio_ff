@@ -1,0 +1,61 @@
+/*<------------------sección formación------------------->*/
+#formacion {
+    background-color: #1c2c3c;
+}
+
+#formacion h2 {
+    color: #f5f5f5;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+    text-align: center;
+    margin: 1rem 0;
+}
+
+.formacion-container {
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    row-gap: 0rem;
+    column-gap: 0%;
+    width: 100%;
+    height: auto;
+}
+
+.formacion-container-box {
+    width: auto;
+    height: auto;
+    margin: 1em;
+}
+
+.box-formacion {
+    background-color: #ffffff;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    position: static;
+    width: 368px;
+    height: 286px;
+}
+
+.formacion-container-box h3 {
+    color: #f5f5f5;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 26px;
+    margin: 8px 0px;
+}
+
+.formacion-container-box p {
+    color: #f5f5f5;
+    font-size: 16px;
+    line-height: 19px;
+    margin-top: 8px;
+}
+
+.box-formacion-img {
+    width: 192px;
+    height: 130px;
+}
