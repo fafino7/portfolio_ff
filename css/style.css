@@ -351,7 +351,7 @@ nav a:hover {
 
 #proyecto-descripcion-right {
     margin-left: 0;
-    justify-items: start;
+    margin-right: auto;
 }
 
 /*<--sección contacto-->*/
