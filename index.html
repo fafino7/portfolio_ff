@@ -30,16 +30,19 @@
             <div>
                 <a href="index.html"><img class="logo" src=img/logo.png alt="logo FF"></a>
             </div>
-            <nav>
-                <ul>
-                    <li><a href="#about-me">About</a></li>
-                    <li><a href="#skills-hobbies">Skills</a></li>
-                    <li><a href="#skills-hobbies">Hobbies</a></li>
-                    <li><a href="#formacion">Formación</a></li>
-                    <li><a href="#experiencia">Proyectos</a></li>
-                    <li><a href="mailto:fafierro.o@gmail.com"><b>fafierro.o@gmail.com</b></a></li>
-                </ul>
-            </nav>
+            <div>
+                <nav>
+                    <ul>
+                        <li class="lista"><a href="#about-me">About</a></li>
+                        <li class="lista"><a href="#skills-hobbies">Skills</a></li>
+                        <li class="lista"><a href="#skills-hobbies">Hobbies</a></li>
+                        <li class="lista"><a href="#formacion">Formación</a></li>
+                        <li class="lista"><a href="#experiencia">Proyectos</a></li>
+                        <li class="lista-correo"><a href="mailto:fafierro.o@gmail.com"><b>fafierro.o@gmail.com</b></a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
         </div>
 
     </header>
@@ -57,9 +60,12 @@
                         mediante estrategias de marketing digital. Estoy cursando Alura Latam ONE.</h4>
 
                     <ul class="encabezado-lista">
-                        <li><a href="https://www.linkedin.com/in/franco-fierro/">LinkedIn <img class="img-lista" src="img/Vectorvector.png"></a></li>
-                        <li><a href="https://github.com/fafino7">Github <img class="img-lista" src="img/Vectorvector.png"></a></li>
-                        <li><a href="https://twitter.com/fafierro32">Twitter <img class="img-lista" src="img/Vectorvector.png"></a></li>
+                        <li><a href="https://www.linkedin.com/in/franco-fierro/">LinkedIn <img class="img-lista"
+                                    src="img/Vectorvector.png"></a></li>
+                        <li><a href="https://github.com/fafino7">Github <img class="img-lista"
+                                    src="img/Vectorvector.png"></a></li>
+                        <li><a href="https://twitter.com/fafierro32">Twitter <img class="img-lista"
+                                    src="img/Vectorvector.png"></a></li>
                         <li><a href="index.html">CV <img class="img-lista" src="img/Vectorvector.png"></a></li>
                     </ul>
                 </div>
@@ -102,18 +108,25 @@
                 <div class="skills-container">
 
                     <div class="box">
-                        <img class="box-img" src="img/js_img.png" alt="javascript logo">
-                        <p>JavaScript</p>
+                        <div class="box-items">
+                            <img class="box-img" src="img/js_img.png" alt="javascript logo">
+                            <p>JavaScript</p>
+                        </div>
+                    </div>
+
+
+                    <div class="box">
+                        <div class="box-items">
+                            <img class="box-img" src="img/html_img.png" alt="html logo">
+                            <p>HTML</p>
+                        </div>
                     </div>
 
                     <div class="box">
-                        <img class="box-img" src="img/html_img.png" alt="html logo">
-                        <p>HTML</p>
-                    </div>
-
-                    <div class="box">
-                        <img class="box-img" src="img/css_img.png" alt="css logo">
-                        <p>CSS</p>
+                        <div class="box-items">
+                            <img class="box-img" src="img/css_img.png" alt="css logo">
+                            <p>CSS</p>
+                        </div>
                     </div>
 
                 </div>
@@ -127,33 +140,45 @@
                 <div class="hobbies-container">
 
                     <div class="box">
-                        <p class="emoji-img" style="font-size:28px">&#9917</p>
-                        <p>Fútbol</p>
+                        <div class="box-items">
+                            <p class="emoji-img" style="font-size:28px">&#9917</p>
+                            <p>Fútbol</p>
+                        </div>
                     </div>
 
                     <div class="box">
-                        <p class="emoji-img" style="font-size:28px">🎧</p>
-                        <p>Música</p>
+                        <div class="box-items">
+                            <p class="emoji-img" style="font-size:28px">🎧</p>
+                            <p>Música</p>
+                        </div>
                     </div>
 
                     <div class="box">
-                        <p class="emoji-img" style="font-size:28px">📖</p>
-                        <p>Leer</p>
+                        <div class="box-items">
+                            <p class="emoji-img" style="font-size:28px">📖</p>
+                            <p>Leer</p>
+                        </div>
                     </div>
 
                     <div class="box">
-                        <p class="emoji-img" style="font-size:28px">⚖️</p>
-                        <p>Filosofía</p>
+                        <div class="box-items">
+                            <p class="emoji-img" style="font-size:28px">⚖️</p>
+                            <p>Filosofía</p>
+                        </div>
                     </div>
 
                     <div class="box">
-                        <p class="emoji-img" style="font-size:28px">🧘</p>
-                        <p>Meditación</p>
+                        <div class="box-items">
+                            <p class="emoji-img" style="font-size:28px">🧘</p>
+                            <p>Meditación</p>
+                        </div>
                     </div>
 
                     <div class="box">
-                        <img class="box-img" src="img/cr.png" alt="javascript logo">
-                        <p>Clash Royale</p>
+                        <div class="box-items">
+                            <img class="box-img" src="img/cr.png" alt="javascript logo">
+                            <p>Clash Royale</p>
+                        </div>
                     </div>
 
                 </div>
@@ -286,21 +311,24 @@
                         </div>
 
                         <div class="input-container">
-                            <input class="input" id="email" name="email" type="email" autocomplete="off" placeholder="e-mail" required>
+                            <input class="input" id="email" name="email" type="email" autocomplete="off"
+                                placeholder="e-mail" required>
                             <label class="input-label" for="email">e-mail</label>
                             <span class="input-bar"></span>
                             <span class="message-error">Este campo no es válido</span>
                         </div>
 
                         <div class="input-container">
-                            <input class="input" id="telefono" name="telefono" type="tel" autocomplete="off" placeholder="Teléfono" required>
+                            <input class="input" id="telefono" name="telefono" type="tel" autocomplete="off"
+                                placeholder="Teléfono" required>
                             <label class="input-label" for="telefono">Teléfono</label>
                             <span class="input-bar"></span>
                             <span class="message-error">Este campo no es válido</span>
                         </div>
 
                         <div class="input-container">
-                            <textarea class="textarea" id="mensaje" name="mensaje" cols="70" rows="8" placeholder="Escriba aquí..." required></textarea>
+                            <textarea class="textarea" id="mensaje" name="mensaje" cols="70" rows="8"
+                                placeholder="Escriba aquí..." required></textarea>
                             <label class="textarea-label" for="mensaje">Mensaje</label>
                             <span class="textarea-bar"></span>
                             <span class="message-error">Este campo no es válido</span>

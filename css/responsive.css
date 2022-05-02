@@ -1,7 +1,96 @@
-@media screen and (max-width:480px){
-    .about-me {
-        padding: 3vw 3vw 2rem;;
+@media screen and (max-width:375px){
+    .about-me-texto {
+        width: auto;
     }
 
+    .skills-container {
+        display: grid;
+        grid-template-columns: 48% 48%;
+        row-gap: 2rem;
+        column-gap: 4%;
+        height: auto;
+        width: auto;
+        justify-items: center;
+    }
+
+    .hobbies-container {
+        display: grid;
+        grid-template-columns: 48% 48%;
+        row-gap: 2rem;
+        column-gap: 4%;
+        height: auto;
+        width: auto;
+        justify-items: center
+    }
+
+    /* =============    skills & hobbies    ============= */
+    .box {
+        padding: 0;
+        width: 100%;
+        height: 34vw;
+    }
+
+    .box-items {
+        padding: 0 0 10px 16px;
+    }
+
+    /* =============    formación académica    ============= */
+    #formacion h2 {
+        font-size: 22px;
+    }
+
+    .formacion-container {
+        margin: 0;
+        display: grid;
+        justify-content: center;
+        grid-template-columns: 100%;
+    }
+
+    .box-formacion {
+        width: 100%;
+        height: 118px;
+        justify-content: space-around;
+    }
+
+    .box-formacion-img{
+        width: 40%;
+        height: 70%;
+    }
+
+    .formacion-container-box h3 {
+        font-size: 16px;
+    }
+
+    .formacion-container-box p {
+        font-size: 14px;
+    }
+
+    /* =============    experiencia profesional    ============= */
+    .proyecto {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    #proyecto-right {
+        margin: 3rem 0;
+    }
+    
+    .container-proyectos {
+        margin: 0;
+        align-items: center;
+    }
+    
+    .proyecto-imagen {
+        width: 90%;
+    }
+
+    .proyecto-descripcion {
+        margin: 1rem 0 0 0;
+        width: 90%;
+    }
+
+    #proyecto-descripcion-right {
+        margin-right: 0;
+    }
 
 }

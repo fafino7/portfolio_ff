@@ -46,7 +46,6 @@
     position: static;
     width: 176px;
     height: 174px;
-    min-width: 176px;
     border-radius: 10px;
 }
 
@@ -72,7 +71,6 @@
     flex-direction: row;
     justify-content: center;
     align-items: flex-start;
-    padding: 16px;
     row-gap: 16px;
     column-gap: 16px;
 }
