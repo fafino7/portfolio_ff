@@ -1,4 +1,63 @@
 @media screen and (max-width:375px){
+    /* =============    encabezado    ============= */
+    .caja {
+        padding: 0.5rem 4vw;
+        margin: 0;
+        width: auto;
+    }
+
+    .logo {
+        height: 3.375rem;
+    }
+
+    .header-nav {
+        width: max-content;
+        margin-right: 4vw;
+    }
+
+    nav a {
+        font-size: 0.875rem;
+    }
+
+    .lista {
+        visibility: hidden;
+    }
+
+    /* =============    encabezado    ============= */
+    .encabezado-principal{
+        flex-wrap: wrap-reverse;
+        justify-content: flex-start;
+    }
+
+    .encabezado-introduccion {
+        margin-top: 1rem;
+    }
+
+    .encabezado-introduccion h1 {
+        font-size: 22px;
+        line-height: 25.83px;
+    }
+    
+    .encabezado-introduccion h4 {
+        font-size: 14px;
+        line-height: 16.44px;
+    }
+
+    .encabezado-lista {
+        width: max-content;
+    }
+
+    .encabezado-lista a {
+        font-size: 14px;
+        line-height: 16.44px;
+    }
+
+    .foto-encabezado {
+        width: 6.125rem;
+        height: auto;
+    }
+
+    /* =============    about-me    ============= */
     .about-me-texto {
         width: auto;
     }
@@ -91,6 +150,24 @@
 
     #proyecto-descripcion-right {
         margin-right: 0;
+    }
+
+    /* =============    contacto    ============= */
+    .container-contacto {
+        display: unset;
+    }
+    
+    .container-contacto img {
+        display: none;
+    }
+
+    .formulario-contacto {
+        width: 100%;
+        margin: 0;
+    }
+
+    .formulario-contacto p {
+        margin-bottom: 32px;
     }
 
 }
